@@ -1,5 +1,3 @@
-
-
 fun main(){
     var f:String?=null
     val size: Int = f?.length ?: 0
