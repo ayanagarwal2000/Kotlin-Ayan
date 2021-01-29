@@ -9,5 +9,11 @@ fun main(){
     println(mapofnames["Nationality"])
     hashmapofnames ["Work"]="Student"
     println(hashmapofnames["Work"])
+    println("*****************LOOPS******************")
+
+    names.forEach { it String 
+        println(it)
+
+    }
 
 }
