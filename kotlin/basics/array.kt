@@ -11,9 +11,33 @@ fun main(){
     println(hashmapofnames["Work"])
     println("*****************LOOPS******************")
 
-    names.forEach { it String 
+    /*  names.forEach { it String 
         println(it)
 
+    } */
+
+    for(name in mapofnames){
+        print(name)
+
+        println(" , ")
     }
 
+    for(x in 0..10){
+        print(x)
+    }
+    println()
+    for(x in 0 until 10){
+        print(x)
+    }
+    println()
+
+    for(x in 0 until 10 step 2){
+        print(x)
+    }
+    println()
+
+    for(x in 10 downTo 0 step 2){
+        print(x)
+    }
+    println()
 }
