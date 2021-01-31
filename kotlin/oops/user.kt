@@ -1,7 +1,7 @@
 fun main(){
-    val account=Account()
+    val account=Account(1234,"Ayan",10000f)
 
-    account.insert(1234,"Ayan",10000f)
+    //account.insert(1234,"Ayan",10000f)
     account.deposit(1000f)
     account.withDraw(100f)
     println(account.amount)
@@ -12,6 +12,13 @@ class Account{
     var accNo:Int =0
     var name:String?=null
     var amount:Float=0f
+
+    //Constructor for the respective Class
+    fun Account(acc:Int, n:String, amt:Float){
+        this.accNo=acc
+        this.name=n
+        this.amount=amt
+    }
 
     fun insert(acc:Int, n:String, amt:Float){
         accNo=acc
