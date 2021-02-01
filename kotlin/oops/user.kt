@@ -8,7 +8,7 @@ fun main(){
 
 }
 
-class Account{
+class Account(var acc:Int,var n:String,var amt:Float){
     var accNo:Int =0
     var name:String?=null
     var amount:Float=0f
