@@ -6,8 +6,7 @@ fun main(){
     account.withDraw(100f)
     println(account.amount)
     println(account.name)
-​
-}
+​}
 ​
 class Account(accNo:Int, name:String, amount:Float){
     var accNo:Int 
