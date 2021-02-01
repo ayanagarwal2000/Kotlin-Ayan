@@ -9,17 +9,17 @@ fun main(){
 
 }
 
-class Account(var acc:Int,var n:String,var amt:Float){
-    var accNo:Int =0
-    var name:String?=null
-    var amount:Float=0f
+class Account(accNo:Int, name:String, amount:Float){
+    var accNo:Int 
+    var name:String
+    var amount:Float
 
     //Constructor for the respective Class
-    fun Account(acc:Int, n:String, amt:Float){
+   /* fun Account(acc:Int, n:String, amt:Float){
         this.accNo=acc
         this.name=n
         this.amount=amt
-    }
+    }*/
 
     fun insert(acc:Int, n:String, amt:Float){
         accNo=acc
