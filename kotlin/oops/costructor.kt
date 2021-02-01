@@ -15,16 +15,10 @@ class Account(accNo:Int, name:String, amount:Float){
     var amount:Float
 
     //Constructor for the respective Class
-   /* fun Account(acc:Int, n:String, amt:Float){
-        this.accNo=acc
-        this.name=n
-        this.amount=amt
-    }*/
-
-    fun insert(acc:Int, n:String, amt:Float){
-        accNo=acc
-        name=n
-        amount=amt
+    init{
+        this.accNo=accNo
+        this.name=name
+        this.amount=amount
     }
 
     fun deposit(money:Float){
