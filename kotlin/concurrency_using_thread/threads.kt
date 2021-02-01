@@ -6,6 +6,12 @@ fun main(){
 
 fun printList(id:String){
     for(i in 0 until 1000){
+
+        if(id=="2" && i==500){
+            Thread.sleep(100)
+        }
+
+
         println(" $id  $i " )
     }
 }
