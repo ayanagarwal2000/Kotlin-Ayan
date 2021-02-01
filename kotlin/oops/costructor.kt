@@ -1,7 +1,7 @@
 fun main(){
-    val account=Account(1234,"Ayan",10000f)
+    val account=Account(1234,"ayan",10000f)
 ​
-    //account.insert(1234,"ayan",10000f)
+    //account.insert(1234,"Ayan",10000f)
     account.deposit(1000f)
     account.withDraw(100f)
     println(account.amount)
